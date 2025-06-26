@@ -17,3 +17,12 @@ class Node
 };
 
 class BinaryThree
+{
+    public:
+        Node *ROOT;
+
+        BinaryTree()
+        (
+            ROOT = nullptr; // intiallize ROOT to null
+        )
+}
