@@ -15,3 +15,5 @@ class Node
         rightchild = nullptr; // intiallize right child to null
        }
 };
+
+class BinaryThree
