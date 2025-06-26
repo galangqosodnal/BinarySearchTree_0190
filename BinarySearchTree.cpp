@@ -16,13 +16,20 @@ class Node
        }
 };
 
-class BinaryThree
+class BinaryTree
 {
     public:
         Node *ROOT;
 
         BinaryTree()
-        (
+        {
             ROOT = nullptr; // intiallize ROOT to null
-        )
-}
+        }
+
+        void insert()
+        {
+            int x;
+            cout << "Masukan nilai: ";
+            cin >> x;
+
+           
