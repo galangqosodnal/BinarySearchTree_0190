@@ -137,3 +137,9 @@ class BinaryTree
             cout << ptr->info << ""; // parent
         }
 
+        bool isEmpty()
+        {
+            //checks if the tree is empty
+            return ROOT == nullptr;
+        }
+};
